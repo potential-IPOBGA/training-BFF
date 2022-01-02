@@ -22,8 +22,4 @@ export const typeDefs: DocumentNode = gql`
         trainers: [Trainer]!
         trainees: [Trainee]!
     }
-
-    type Query {
-        todos: [Todo]
-    }
 `;
