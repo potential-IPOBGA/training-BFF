@@ -1,0 +1,8 @@
+coverage/*
+node_modules
+dist
+orca-graphql.ts
+customer-hub-graphql.ts
+responsibility-api-graphql.ts
+team-management-graphql.ts
+generated/
