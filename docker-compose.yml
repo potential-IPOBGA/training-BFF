@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  training-bff:
+    image: training-bff:latest
+    container_name: training-bff
+    ports:
+      - '4000:4000'
+    command: yarn start
+    networks:
+      - b-final-quiz_backend
+
+networks:
+  b-final-quiz_backend:
+    external: true
